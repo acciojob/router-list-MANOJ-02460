@@ -9,7 +9,6 @@ const App = () => {
   return (
     <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <div>
-          <h1>Item List</h1>
         <Routes>
           <Route path="/" element={<ItemList/>}/>
           <Route path="/items/:id" element={<ItemDetails/>}/>
