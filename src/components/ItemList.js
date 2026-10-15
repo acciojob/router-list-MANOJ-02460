@@ -18,7 +18,7 @@ const ItemList = () => {
     return (
         <div>
 
-            <h1>Item List</h1>
+            
             <ul>
                 {itemList.map((item)=>(
                     <li key={item.id}>
